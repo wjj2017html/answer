@@ -1,10 +1,10 @@
-v-for µÄÓÅÏÈ¼¶¸ßÓÚv-if,ËµÃ÷ v-if½«ÔËÐÐÓëÃ¿Ò»¸öv-forÑ­»·ÖÐ
-ËûÃÇÁ½¸ö Í¬Ê±ÔÚÒ»¸ö½ÚµãÉÏÊ¹ÓÃ »á¾¯¸æ£¬µ«²»±¨´í
+v-for çš„ä¼˜å…ˆçº§é«˜äºŽv-if,è¯´æ˜Ž v-ifå°†è¿è¡Œä¸Žæ¯ä¸€ä¸ªv-forå¾ªçŽ¯ä¸­
+ä»–ä»¬ä¸¤ä¸ªåŒæ—¶åœ¨ä¸€ä¸ªèŠ‚ç‚¹ä¸Šä½¿ç”¨ ä¼šè­¦å‘Šï¼Œä½†ä¸æŠ¥é”™
 
-½â¾öÕâ¸ö¾¯¸æ£¬ÓÅ»¯Ëü¿ÉÒÔ²ÉÓÃ2ÖÖ·½·¨£º
+è§£å†³è¿™ä¸ªè­¦å‘Šï¼Œä¼˜åŒ–å®ƒå¯ä»¥é‡‡ç”¨2ç§æ–¹æ³•ï¼š
 
-1.½«ifÖ¸ÁîÌí¼Óµ½¸¸¼¶ÔªËØÉÏ£¬Õâ¿ÉÒÔ±ÜÃâ¶ÔÃ¿¸öÁÐ±íÏî½øÐÐÌõ¼þÅÐ¶Ï¡£
-ÀýÈç£º
+1.å°†ifæŒ‡ä»¤æ·»åŠ åˆ°çˆ¶çº§å…ƒç´ ä¸Šï¼Œè¿™å¯ä»¥é¿å…å¯¹æ¯ä¸ªåˆ—è¡¨é¡¹è¿›è¡Œæ¡ä»¶åˆ¤æ–­ã€‚
+ä¾‹å¦‚ï¼š
 <ul v-if="shouldShowUsers">
   <li
     v-for="user in users"
@@ -15,8 +15,8 @@ v-for µÄÓÅÏÈ¼¶¸ßÓÚv-if,ËµÃ÷ v-if½«ÔËÐÐÓëÃ¿Ò»¸öv-forÑ­»·ÖÐ
 </ul>
 
 
-2.Èç¹ûÐèÒªÔÚÁÐ±íÖÐ¹ýÂËµô²»ÐèÒªµÄÄ³Ò»Ïî£¬½¨ÒéÊ¹ÓÃ¼ÆËãÊôÐÔ
-ÀýÈç£º
+2.å¦‚æžœéœ€è¦åœ¨åˆ—è¡¨ä¸­è¿‡æ»¤æŽ‰ä¸éœ€è¦çš„æŸä¸€é¡¹ï¼Œå»ºè®®ä½¿ç”¨è®¡ç®—å±žæ€§
+ä¾‹å¦‚ï¼š
 computed: {
   activeUsers: function () {
     return this.users.filter(function (user) {
